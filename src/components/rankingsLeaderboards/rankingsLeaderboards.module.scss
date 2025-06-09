@@ -1,0 +1,31 @@
+/* rankingsLeaderboards.module.scss
+This file contains styles specific to the rankings and leaderboards components. 
+You can define styles for leaderboard tables, ranking lists, and any other related UI elements here. */
+
+/* Example styles */
+.rankings {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.leaderboard {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.leaderboard th, .leaderboard td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.leaderboard th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.season-summary {
+    margin-top: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+}

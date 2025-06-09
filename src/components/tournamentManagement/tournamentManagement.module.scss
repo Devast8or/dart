@@ -1,0 +1,57 @@
+/* tournamentManagement.module.scss
+   Styles specific to the tournament management components
+*/
+
+.tournamentList {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.tournamentItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tournamentItem:last-child {
+    border-bottom: none;
+}
+
+.tournamentBracket {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #e7f3ff;
+}
+
+.tournamentForm {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.tournamentForm input,
+.tournamentForm select {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.tournamentForm button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tournamentForm button:hover {
+    background-color: #218838;
+}

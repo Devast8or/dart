@@ -1,0 +1,15 @@
+// This file contains SCSS variables for consistent styling across the application.
+
+$primary-color: #3498db; // Main color for buttons and links
+$secondary-color: #2ecc71; // Color for success messages
+$error-color: #e74c3c; // Color for error messages
+$background-color: #f5f5f5; // Background color for the application
+$text-color: #333; // Default text color
+$font-family: 'Arial, sans-serif'; // Default font family
+$border-radius: 4px; // Default border radius for buttons and inputs
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Default box shadow for elements
+
+// Breakpoints for responsive design
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;

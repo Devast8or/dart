@@ -1,0 +1,45 @@
+/* This file contains styles specific to the prize money management components. */
+
+.prizeMoneyManagement {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.prizePool {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.prizeHistory {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.prizeHistory__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.prizeHistory__item:last-child {
+    border-bottom: none;
+}
+
+.prizePool__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.prizeHistory__title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

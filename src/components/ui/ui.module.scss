@@ -1,0 +1,33 @@
+// This file contains styles specific to the UI components. 
+
+.ui {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.dashboard {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.responsiveLayout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .responsiveLayout {
+        flex-direction: column;
+    }
+}
